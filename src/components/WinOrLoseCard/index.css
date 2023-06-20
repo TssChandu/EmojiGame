@@ -1,0 +1,53 @@
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff33;
+  justify-self: center;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+}
+.score-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.result-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.score {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.score-value {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #6a59ff;
+}
+.play-btn {
+  border-radius: 10px;
+  padding: 15px;
+  color: #6a59ff;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.win-loss-img {
+  height: 45vh;
+  width: 35vh;
+}
